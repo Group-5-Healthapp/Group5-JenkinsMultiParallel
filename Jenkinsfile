@@ -29,7 +29,7 @@ pipeline{
                 }
                 stage('subjob3'){
                     steps{
-                        sh 'free -m'
+                        sh 'cat /etc/passwd'
                     }
                 }
             }
